@@ -1,0 +1,55 @@
+{
+    "groupId": "continewMoudle",
+    "artifactId": "Logo",
+    "configs": [
+        {
+            "version": "1.0.0",
+            "files": [
+                {
+                    "filePath": "/",
+                    "description": "Logo生成提示词模板 - 用于生成高质量产品Logo设计提示词",
+                    "filename": "logo-prompt.ftl",
+                    "inputVariables": [
+                        {
+                            "variableName": "productName",
+                            "variableType": "String",
+                            "variableComment": "产品名称",
+                            "example": "Chrome助手"
+                        },
+                        {
+                            "variableName": "productType",
+                            "variableType": "String",
+                            "variableComment": "产品类型/功能描述",
+                            "example": "简单自动补写助手"
+                        },
+                        {
+                            "variableName": "style",
+                            "variableType": "String",
+                            "variableComment": "设计风格",
+                            "example": "扁平、简约现代"
+                        },
+                        {
+                            "variableName": "keyConcept",
+                            "variableType": "String",
+                            "variableComment": "核心概念",
+                            "example": "智能助手、自动补写"
+                        },
+                        {
+                            "variableName": "mainColor",
+                            "variableType": "String",
+                            "variableComment": "主色调",
+                            "example": "蓝色"
+                        },
+                        {
+                            "variableName": "secondaryColor",
+                            "variableType": "String",
+                            "variableComment": "辅助色调",
+                            "example": "白色/灰色"
+                        }
+                    ],
+                    "sha256": "待计算"
+                }
+            ]
+        }
+    ]
+}
