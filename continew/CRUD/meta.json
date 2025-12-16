@@ -1,12 +1,12 @@
 {
-    "groupId": "backend",
+    "groupId": "continew",
     "artifactId": "CRUD",
     "configs": [
         {
             "version": "1.0.0",
             "files": [
                 {
-                    "filePath": "/src/main/java/com/air/controller",
+                    "filePath": "/bankend/src/main/java/com/air/controller",
                     "description": "控制层类模板 - 用于生成RESTful API Controller",
                     "filename": "Controller.ftl",
                     "inputVariables": [
@@ -68,7 +68,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/service",
+                    "filePath": "/bankend/src/main/java/com/air/service",
                     "description": "Service接口模板 - 用于生成业务逻辑接口",
                     "filename": "Service.ftl",
                     "inputVariables": [
@@ -118,7 +118,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/service/impl",
+                    "filePath": "/bankend/src/main/java/com/air/service/impl",
                     "description": "ServiceImpl实现类模板 - 用于生成业务逻辑实现类",
                     "filename": "ServiceImpl.ftl",
                     "inputVariables": [
@@ -168,7 +168,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/model/entity",
+                    "filePath": "/bankend/src/main/java/com/air/model/entity",
                     "description": "实体类模板 - 用于生成数据库实体类",
                     "filename": "Entity.ftl",
                     "inputVariables": [
@@ -236,7 +236,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/mapper",
+                    "filePath": "/bankend/src/main/java/com/air/mapper",
                     "description": "Mapper接口模板 - 用于生成MyBatis Mapper接口",
                     "filename": "Mapper.ftl",
                     "inputVariables": [
@@ -286,7 +286,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/model/req",
+                    "filePath": "/bankend/src/main/java/com/air/model/req",
                     "description": "请求参数类模板 - 用于生成请求DTO",
                     "filename": "Req.ftl",
                     "inputVariables": [
@@ -354,7 +354,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/model/resp",
+                    "filePath": "/bankend/src/main/java/com/air/model/resp",
                     "description": "响应类模板 - 用于生成列表响应DTO",
                     "filename": "Resp.ftl",
                     "inputVariables": [
@@ -416,7 +416,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/model/resp",
+                    "filePath": "/bankend/src/main/java/com/air/model/resp",
                     "description": "详情响应类模板 - 用于生成详情响应DTO",
                     "filename": "DetailResp.ftl",
                     "inputVariables": [
@@ -478,7 +478,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/model/query",
+                    "filePath": "/bankend/src/main/java/com/air/model/query",
                     "description": "查询条件类模板 - 用于生成查询条件DTO",
                     "filename": "Query.ftl",
                     "inputVariables": [
@@ -540,387 +540,7 @@
                     "sha256": "待计算"
                 },
                 {
-                    "filePath": "/src/main/java/com/air/controller",
-                    "description": "项目重命名控制器模板 - 用于生成项目重命名管理API Controller",
-                    "filename": "ProjectRenameController.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "packageName",
-                            "variableType": "String",
-                            "variableComment": "项目根包名",
-                            "example": "com.air"
-                        },
-                        {
-                            "variableName": "subPackageName",
-                            "variableType": "String",
-                            "variableComment": "子包名",
-                            "example": ""
-                        },
-                        {
-                            "variableName": "className",
-                            "variableType": "String",
-                            "variableComment": "控制器类名",
-                            "example": "ProjectRenameController"
-                        },
-                        {
-                            "variableName": "classNamePrefix",
-                            "variableType": "String",
-                            "variableComment": "类名前缀",
-                            "example": "ProjectRename"
-                        },
-                        {
-                            "variableName": "author",
-                            "variableType": "String",
-                            "variableComment": "作者名称",
-                            "example": "continew"
-                        },
-                        {
-                            "variableName": "datetime",
-                            "variableType": "String",
-                            "variableComment": "创建日期时间",
-                            "example": "2025-12-05"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/src/main/java/com/air/service",
-                    "description": "项目重命名服务接口模板 - 用于生成项目重命名业务逻辑接口",
-                    "filename": "ProjectRenameService.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "packageName",
-                            "variableType": "String",
-                            "variableComment": "项目根包名",
-                            "example": "com.air"
-                        },
-                        {
-                            "variableName": "subPackageName",
-                            "variableType": "String",
-                            "variableComment": "子包名",
-                            "example": ""
-                        },
-                        {
-                            "variableName": "className",
-                            "variableType": "String",
-                            "variableComment": "Service接口名",
-                            "example": "ProjectRenameService"
-                        },
-                        {
-                            "variableName": "classNamePrefix",
-                            "variableType": "String",
-                            "variableComment": "类名前缀",
-                            "example": "ProjectRename"
-                        },
-                        {
-                            "variableName": "author",
-                            "variableType": "String",
-                            "variableComment": "作者名称",
-                            "example": "continew"
-                        },
-                        {
-                            "variableName": "datetime",
-                            "variableType": "String",
-                            "variableComment": "创建日期时间",
-                            "example": "2025-12-05"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/src/main/java/com/air/service/impl",
-                    "description": "项目重命名服务实现类模板 - 用于生成项目重命名业务逻辑实现类",
-                    "filename": "ProjectRenameServiceImpl.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "packageName",
-                            "variableType": "String",
-                            "variableComment": "项目根包名",
-                            "example": "com.air"
-                        },
-                        {
-                            "variableName": "subPackageName",
-                            "variableType": "String",
-                            "variableComment": "子包名",
-                            "example": ""
-                        },
-                        {
-                            "variableName": "className",
-                            "variableType": "String",
-                            "variableComment": "ServiceImpl类名",
-                            "example": "ProjectRenameServiceImpl"
-                        },
-                        {
-                            "variableName": "classNamePrefix",
-                            "variableType": "String",
-                            "variableComment": "类名前缀",
-                            "example": "ProjectRename"
-                        },
-                        {
-                            "variableName": "author",
-                            "variableType": "String",
-                            "variableComment": "作者名称",
-                            "example": "continew"
-                        },
-                        {
-                            "variableName": "datetime",
-                            "variableType": "String",
-                            "variableComment": "创建日期时间",
-                            "example": "2025-12-05"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/src/main/java/com/air/mapper",
-                    "description": "项目重命名数据访问层模板 - 用于生成MyBatis Mapper接口",
-                    "filename": "ProjectRenameMapper.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "packageName",
-                            "variableType": "String",
-                            "variableComment": "项目根包名",
-                            "example": "com.air"
-                        },
-                        {
-                            "variableName": "subPackageName",
-                            "variableType": "String",
-                            "variableComment": "子包名",
-                            "example": ""
-                        },
-                        {
-                            "variableName": "className",
-                            "variableType": "String",
-                            "variableComment": "Mapper接口名",
-                            "example": "ProjectRenameMapper"
-                        },
-                        {
-                            "variableName": "classNamePrefix",
-                            "variableType": "String",
-                            "variableComment": "类名前缀",
-                            "example": "ProjectRename"
-                        },
-                        {
-                            "variableName": "author",
-                            "variableType": "String",
-                            "variableComment": "作者名称",
-                            "example": "continew"
-                        },
-                        {
-                            "variableName": "datetime",
-                            "variableType": "String",
-                            "variableComment": "创建日期时间",
-                            "example": "2025-12-05"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/src/main/java/com/air/model/req",
-                    "description": "项目重命名请求参数模板 - 用于生成项目重命名请求DTO",
-                    "filename": "ProjectRenameReq.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "packageName",
-                            "variableType": "String",
-                            "variableComment": "项目根包名",
-                            "example": "com.air"
-                        },
-                        {
-                            "variableName": "subPackageName",
-                            "variableType": "String",
-                            "variableComment": "子包名",
-                            "example": "model.req"
-                        },
-                        {
-                            "variableName": "className",
-                            "variableType": "String",
-                            "variableComment": "请求类名",
-                            "example": "ProjectRenameReq"
-                        },
-                        {
-                            "variableName": "author",
-                            "variableType": "String",
-                            "variableComment": "作者名称",
-                            "example": "continew"
-                        },
-                        {
-                            "variableName": "datetime",
-                            "variableType": "String",
-                            "variableComment": "创建日期时间",
-                            "example": "2025-12-05"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/src/main/java/com/air/model/resp",
-                    "description": "项目重命名响应参数模板 - 用于生成项目重命名响应DTO",
-                    "filename": "ProjectRenameResp.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "packageName",
-                            "variableType": "String",
-                            "variableComment": "项目根包名",
-                            "example": "com.air"
-                        },
-                        {
-                            "variableName": "subPackageName",
-                            "variableType": "String",
-                            "variableComment": "子包名",
-                            "example": "model.resp"
-                        },
-                        {
-                            "variableName": "className",
-                            "variableType": "String",
-                            "variableComment": "响应类名",
-                            "example": "ProjectRenameResp"
-                        },
-                        {
-                            "variableName": "author",
-                            "variableType": "String",
-                            "variableComment": "作者名称",
-                            "example": "continew"
-                        },
-                        {
-                            "variableName": "datetime",
-                            "variableType": "String",
-                            "variableComment": "创建日期时间",
-                            "example": "2025-12-05"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/src/main/java/com/air/utils",
-                    "description": "项目重命名工具类模板 - 用于生成项目重命名工具方法",
-                    "filename": "ProjectRenameUtils.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "packageName",
-                            "variableType": "String",
-                            "variableComment": "项目根包名",
-                            "example": "com.air"
-                        },
-                        {
-                            "variableName": "subPackageName",
-                            "variableType": "String",
-                            "variableComment": "子包名",
-                            "example": "utils"
-                        },
-                        {
-                            "variableName": "className",
-                            "variableType": "String",
-                            "variableComment": "工具类名",
-                            "example": "ProjectRenameUtils"
-                        },
-                        {
-                            "variableName": "author",
-                            "variableType": "String",
-                            "variableComment": "作者名称",
-                            "example": "continew"
-                        },
-                        {
-                            "variableName": "datetime",
-                            "variableType": "String",
-                            "variableComment": "创建日期时间",
-                            "example": "2025-12-05"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/sql",
-                    "description": "项目重命名历史表SQL脚本模板 - 用于生成项目重命名历史记录表和菜单配置",
-                    "filename": "project-rename-history.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "businessName",
-                            "variableType": "String",
-                            "variableComment": "业务名称（中文）",
-                            "example": "项目重命名"
-                        },
-                        {
-                            "variableName": "apiModuleName",
-                            "variableType": "String",
-                            "variableComment": "API模块名",
-                            "example": "system"
-                        },
-                        {
-                            "variableName": "apiName",
-                            "variableType": "String",
-                            "variableComment": "API名称",
-                            "example": "project-rename"
-                        },
-                        {
-                            "variableName": "classNamePrefix",
-                            "variableType": "String",
-                            "variableComment": "类名前缀",
-                            "example": "ProjectRename"
-                        },
-                        {
-                            "variableName": "oldTablePrefix",
-                            "variableType": "String",
-                            "variableComment": "旧表名前缀",
-                            "example": "t_air"
-                        },
-                        {
-                            "variableName": "newTablePrefix",
-                            "variableType": "String",
-                            "variableComment": "新表名前缀",
-                            "example": "t_company"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/sql",
-                    "description": "数据库表重命名SQL脚本模板 - 用于生成完整的数据库表重命名脚本",
-                    "filename": "table-rename.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "businessName",
-                            "variableType": "String",
-                            "variableComment": "业务名称（中文）",
-                            "example": "项目重命名"
-                        },
-                        {
-                            "variableName": "oldTablePrefix",
-                            "variableType": "String",
-                            "variableComment": "旧表名前缀",
-                            "example": "t_air"
-                        },
-                        {
-                            "variableName": "newTablePrefix",
-                            "variableType": "String",
-                            "variableComment": "新表名前缀",
-                            "example": "t_company"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/frontend/src/api",
-                    "description": "项目重命名前端API模板 - 用于生成前端API调用文件",
-                    "filename": "project-rename.ftl",
-                    "inputVariables": [
-                        {
-                            "variableName": "apiModuleName",
-                            "variableType": "String",
-                            "variableComment": "API模块名",
-                            "example": "system"
-                        },
-                        {
-                            "variableName": "apiName",
-                            "variableType": "String",
-                            "variableComment": "API名称",
-                            "example": "project-rename"
-                        }
-                    ],
-                    "sha256": "待计算"
-                },
-                {
-                    "filePath": "/sql",
+                    "filePath": "/bankend/sql",
                     "description": "菜单SQL脚本模板 - 用于生成菜单初始化SQL",
                     "filename": "Menu.ftl",
                     "inputVariables": [
@@ -947,6 +567,194 @@
                             "variableType": "String",
                             "variableComment": "实体类命名前缀（驼峰式）",
                             "example": "Order"
+                        }
+                    ],
+                    "sha256": "待计算"
+                },
+                {
+                    "filePath": "/frontend/src/api",
+                    "description": "前端API接口模板 - 用于生成API接口文件",
+                    "filename": "api.ftl",
+                    "inputVariables": [
+                        {
+                            "variableName": "apiModuleName",
+                            "variableType": "String",
+                            "variableComment": "API模块名",
+                            "example": "system"
+                        },
+                        {
+                            "variableName": "apiName",
+                            "variableType": "String",
+                            "variableComment": "API名称",
+                            "example": "order"
+                        },
+                        {
+                            "variableName": "classNamePrefix",
+                            "variableType": "String",
+                            "variableComment": "实体类命名前缀（驼峰式）",
+                            "example": "Order"
+                        },
+                        {
+                            "variableName": "businessName",
+                            "variableType": "String",
+                            "variableComment": "业务名称（中文）",
+                            "example": "订单"
+                        },
+                        {
+                            "variableName": "fieldConfigs",
+                            "variableType": "List<FieldConfig>",
+                            "variableComment": "字段配置列表",
+                            "example": "[{fieldName: 'orderNo', showInList: true}]"
+                        }
+                    ],
+                    "sha256": "待计算"
+                },
+                {
+                    "filePath": "/frontend/src/components",
+                    "description": "新增/编辑模态框组件模板 - 用于生成新增/编辑数据的模态框组件",
+                    "filename": "AddModal.ftl",
+                    "inputVariables": [
+                        {
+                            "variableName": "classNamePrefix",
+                            "variableType": "String",
+                            "variableComment": "实体类命名前缀（驼峰式）",
+                            "example": "Order"
+                        },
+                        {
+                            "variableName": "businessName",
+                            "variableType": "String",
+                            "variableComment": "业务名称（中文）",
+                            "example": "订单"
+                        },
+                        {
+                            "variableName": "apiModuleName",
+                            "variableType": "String",
+                            "variableComment": "API模块名",
+                            "example": "system"
+                        },
+                        {
+                            "variableName": "apiName",
+                            "variableType": "String",
+                            "variableComment": "API名称",
+                            "example": "order"
+                        },
+                        {
+                            "variableName": "fieldConfigs",
+                            "variableType": "List<FieldConfig>",
+                            "variableComment": "字段配置列表",
+                            "example": "[{fieldName: 'orderNo', showInForm: true, isRequired: true}]"
+                        },
+                        {
+                            "variableName": "hasDictField",
+                            "variableType": "Boolean",
+                            "variableComment": "是否包含字典字段",
+                            "example": "true"
+                        },
+                        {
+                            "variableName": "dictCodes",
+                            "variableType": "List<String>",
+                            "variableComment": "字典代码列表",
+                            "example": "['status', 'type']"
+                        }
+                    ],
+                    "sha256": "待计算"
+                },
+                {
+                    "filePath": "/frontend/src/components",
+                    "description": "详情抽屉组件模板 - 用于生成查看详情的抽屉组件",
+                    "filename": "DetailDrawer.ftl",
+                    "inputVariables": [
+                        {
+                            "variableName": "businessName",
+                            "variableType": "String",
+                            "variableComment": "业务名称（中文）",
+                            "example": "订单"
+                        },
+                        {
+                            "variableName": "classNamePrefix",
+                            "variableType": "String",
+                            "variableComment": "实体类命名前缀（驼峰式）",
+                            "example": "Order"
+                        },
+                        {
+                            "variableName": "apiModuleName",
+                            "variableType": "String",
+                            "variableComment": "API模块名",
+                            "example": "system"
+                        },
+                        {
+                            "variableName": "apiName",
+                            "variableType": "String",
+                            "variableComment": "API名称",
+                            "example": "order"
+                        },
+                        {
+                            "variableName": "fieldConfigs",
+                            "variableType": "List<FieldConfig>",
+                            "variableComment": "字段配置列表",
+                            "example": "[{fieldName: 'orderNo', comment: '订单编号'}]"
+                        },
+                        {
+                            "variableName": "hasDictField",
+                            "variableType": "Boolean",
+                            "variableComment": "是否包含字典字段",
+                            "example": "true"
+                        },
+                        {
+                            "variableName": "dictCodes",
+                            "variableType": "List<String>",
+                            "variableComment": "字典代码列表",
+                            "example": "['status', 'type']"
+                        }
+                    ],
+                    "sha256": "待计算"
+                },
+                {
+                    "filePath": "/frontend/src/views",
+                    "description": "列表页面模板 - 用于生成数据列表展示页面",
+                    "filename": "index.ftl",
+                    "inputVariables": [
+                        {
+                            "variableName": "businessName",
+                            "variableType": "String",
+                            "variableComment": "业务名称（中文）",
+                            "example": "订单"
+                        },
+                        {
+                            "variableName": "classNamePrefix",
+                            "variableType": "String",
+                            "variableComment": "实体类命名前缀（驼峰式）",
+                            "example": "Order"
+                        },
+                        {
+                            "variableName": "apiModuleName",
+                            "variableType": "String",
+                            "variableComment": "API模块名",
+                            "example": "system"
+                        },
+                        {
+                            "variableName": "apiName",
+                            "variableType": "String",
+                            "variableComment": "API名称",
+                            "example": "order"
+                        },
+                        {
+                            "variableName": "fieldConfigs",
+                            "variableType": "List<FieldConfig>",
+                            "variableComment": "字段配置列表",
+                            "example": "[{fieldName: 'orderNo', showInList: true, showInQuery: true}]"
+                        },
+                        {
+                            "variableName": "hasDictField",
+                            "variableType": "Boolean",
+                            "variableComment": "是否包含字典字段",
+                            "example": "true"
+                        },
+                        {
+                            "variableName": "dictCodes",
+                            "variableType": "List<String>",
+                            "variableComment": "字典代码列表",
+                            "example": "['status', 'type']"
                         }
                     ],
                     "sha256": "待计算"

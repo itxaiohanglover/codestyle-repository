@@ -1,12 +1,12 @@
 {
-  "groupId": "backend",
+  "groupId": "continew",
   "artifactId": "DatabaseConfig",
   "configs": [
     {
       "version": "1.0.0",
       "files": [
         {
-          "filePath": "/src/main/resources/config",
+          "filePath": "/backend/src/main/resources/config",
           "description": "数据库配置文件模板",
           "filename": "application.yml.ftl",
           "inputVariables": [
@@ -35,7 +35,7 @@
               "example": "password"
             },
             {
-              "variableName":"progectName",
+              "variableName": "progectName",
               "variableType": "String",
               "variableComment": "项目名称",
               "example": "myproject"
@@ -44,9 +44,9 @@
           "sha256": "待计算"
         },
         {
-          "filePath": "/src/main/resources/config",
+          "filePath": "/backend/src/main/resources/config",
           "description": "Maven依赖片段(复制到pom文件里)",
-          "filename": "pom-dependencies.ftl",
+          "filename": "pom-dependency-snippet.ftl",
           "inputVariables": [
             {
               "variableName": "dbType",
@@ -56,9 +56,22 @@
             }
           ],
           "sha256": "待计算"
+        },
+        {
+          "filePath": "/backend/db/mysql",
+          "description": "MySQL数据库连接池配置片段",
+          "filename": "db-config-snippet.yml.ftl",
+          "inputVariables": [],
+          "sha256": "待计算"
+        },
+        {
+          "filePath": "/backend/db/postgresql",
+          "description": "PostgreSQL数据库连接池配置片段",
+          "filename": "db-config-snippet.yml.ftl",
+          "inputVariables": [],
+          "sha256": "待计算"
         }
       ]
     }
   ]
-
 }
